@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alura/utils": "*",
     "@alura/web-public": "file:",
     "next": "^14.2.15",
     "react": "^18.3.1",
