@@ -5,28 +5,33 @@
 "@alura/design-system@file:packages/design-system":
   version "1.0.0"
   dependencies:
-    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-1aed34df-2a5f-4343-8e2f-4e824ae3d2a3-1728440324888/node_modules/@alura/design-system"
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-1aed34df-2a5f-4343-8e2f-4e824ae3d2a3-1728440324888/node_modules/@alura/design-system"
+    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/design-system"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/design-system"
     styled-components "^6.1.13"
+
+"@alura/tsconfig-commons@file:setup/tsconfig-commons":
+  version "1.0.0"
+  dependencies:
+    "@alura/tsconfig-commons" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-tsconfig-commons-1.0.0-021fabf2-a26e-4c5c-b7d0-2fe874831c3b-1728441180971/node_modules/@alura/tsconfig-commons"
 
 "@alura/utils@file:packages/design-system":
   version "1.0.0"
   dependencies:
-    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-1aed34df-2a5f-4343-8e2f-4e824ae3d2a3-1728440324888/node_modules/@alura/utils"
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-1aed34df-2a5f-4343-8e2f-4e824ae3d2a3-1728440324888/node_modules/@alura/utils"
+    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/utils"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/utils"
     styled-components "^6.1.13"
 
 "@alura/utils@file:packages/utils":
   version "1.0.0"
   dependencies:
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-9a537bcc-1a2d-4a82-ae7d-f042357d8e52-1728440324887/node_modules/@alura/utils"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e879287e-2792-483b-842b-09cb7f6c5db5-1728441180970/node_modules/@alura/utils"
 
 "@alura/web-public@file:projects/web-public":
   version "1.0.0"
   dependencies:
     "@alura/design-system" "*"
     "@alura/utils" "*"
-    "@alura/web-public" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-web-public-1.0.0-3da87812-0dc5-4c7f-b7a3-d94cf8fca0f5-1728440324889/node_modules/@alura/web-public"
+    "@alura/web-public" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-web-public-1.0.0-0c5c5103-9891-4ea5-bd82-5db4425787a5-1728441180969/node_modules/@alura/web-public"
     next "^14.2.15"
     react "^18.3.1"
     react-dom "^18.3.1"

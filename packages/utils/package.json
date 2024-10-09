@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "@alura/utils": "file:"
+  },
+  "devDependencies": {
+    "@alura/tsconfig-commons": "*"
   }
 }
