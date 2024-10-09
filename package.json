@@ -8,6 +8,7 @@
     ]
   },
   "scripts": {
+    "design-system": "yarn workspace @alura/design-system",
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",

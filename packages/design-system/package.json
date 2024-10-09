@@ -1,0 +1,11 @@
+{
+  "name": "@alura/design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@alura/design-system": "file:",
+    "@alura/utils": "file:",
+    "styled-components": "^6.1.13"
+  }
+}
