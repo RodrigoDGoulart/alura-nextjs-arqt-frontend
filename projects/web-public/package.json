@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "styled-components": "6.1.13",
     "@alura/design-system": "*",
     "@alura/utils": "*",
     "@alura/web-public": "file:",

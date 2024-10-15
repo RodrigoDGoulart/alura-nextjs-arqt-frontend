@@ -5,36 +5,37 @@
 "@alura/design-system@file:packages/design-system":
   version "1.0.0"
   dependencies:
-    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/design-system"
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/design-system"
+    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-0143cf4c-84e3-423f-b984-77c2dff8fc4a-1728952483039/node_modules/@alura/design-system"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-design-system-1.0.0-0143cf4c-84e3-423f-b984-77c2dff8fc4a-1728952483039/node_modules/@alura/design-system"
     styled-components "^6.1.13"
 
 "@alura/tsconfig-commons@file:setup/tsconfig-commons":
   version "1.0.0"
   dependencies:
-    "@alura/tsconfig-commons" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-tsconfig-commons-1.0.0-021fabf2-a26e-4c5c-b7d0-2fe874831c3b-1728441180971/node_modules/@alura/tsconfig-commons"
+    "@alura/tsconfig-commons" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-tsconfig-commons-1.0.0-05d9fccd-8826-49d1-9cb0-f6b63d123c37-1728952483043/node_modules/@alura/tsconfig-commons"
 
 "@alura/utils@file:packages/design-system":
   version "1.0.0"
   dependencies:
-    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/utils"
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e5d7f74b-ecd5-4127-96df-7a4809bad51c-1728441180968/node_modules/@alura/utils"
+    "@alura/design-system" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-0143cf4c-84e3-423f-b984-77c2dff8fc4a-1728952483039/node_modules/@alura/utils"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-0143cf4c-84e3-423f-b984-77c2dff8fc4a-1728952483039/node_modules/@alura/utils"
     styled-components "^6.1.13"
 
 "@alura/utils@file:packages/utils":
   version "1.0.0"
   dependencies:
-    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-e879287e-2792-483b-842b-09cb7f6c5db5-1728441180970/node_modules/@alura/utils"
+    "@alura/utils" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-utils-1.0.0-d297c3c4-f769-4886-b86b-db4a0e720fca-1728952483040/node_modules/@alura/utils"
 
 "@alura/web-public@file:projects/web-public":
   version "1.0.0"
   dependencies:
     "@alura/design-system" "*"
     "@alura/utils" "*"
-    "@alura/web-public" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-web-public-1.0.0-0c5c5103-9891-4ea5-bd82-5db4425787a5-1728441180969/node_modules/@alura/web-public"
+    "@alura/web-public" "file:../../../../../AppData/Local/Yarn/Cache/v6/npm-@alura-web-public-1.0.0-9b7b2765-7cad-4242-b4e7-fad119183659-1728952483041/node_modules/@alura/web-public"
     next "^14.2.15"
     react "^18.3.1"
     react-dom "^18.3.1"
+    styled-components "6.1.13"
 
 "@emotion/is-prop-valid@1.2.2":
   version "1.2.2"
@@ -319,7 +320,7 @@ streamsearch@^1.1.0:
   resolved "https://registry.yarnpkg.com/streamsearch/-/streamsearch-1.1.0.tgz#404dd1e2247ca94af554e841a8ef0eaa238da764"
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
-styled-components@^6.1.13:
+styled-components@6.1.13, styled-components@^6.1.13:
   version "6.1.13"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.1.13.tgz#2d777750b773b31469bd79df754a32479e9f475e"
   integrity sha512-M0+N2xSnAtwcVAQeFEsGWFFxXDftHUD7XrKla06QbpUMmbmtFBMMTcKWvFXtWxuD5qQkB8iU5gk6QASlx2ZRMw==
