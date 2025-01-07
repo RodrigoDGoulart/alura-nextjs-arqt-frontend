@@ -8,7 +8,11 @@
     "@alura/utils": "file:",
     "styled-components": "^6.1.13"
   },
+  "scripts": {
+    "lint": "eslint ./**/*.{ts,tsx}"
+  },
   "devDependencies": {
+    "@alura/eslint-commons": "*",
     "@alura/tsconfig-commons": "*"
   }
 }

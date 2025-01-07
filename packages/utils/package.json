@@ -6,7 +6,11 @@
   "dependencies": {
     "@alura/utils": "file:"
   },
+  "scripts": {
+    "lint": "eslint ./**/*.{ts,tsx}"
+  },
   "devDependencies": {
+    "@alura/eslint-commons": "*",
     "@alura/tsconfig-commons": "*"
   }
 }

@@ -12,9 +12,13 @@
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
+    "lint": "yarn workspaces run lint",
+    "lint:web-public": "yarn web-public lint",
     "start:web-public": "yarn web-public start"
   },
   "dependencies": {
+    "eslint": "9.17.0",
+    "prettier": "3.4.2",
     "@types/node": "22.7.5",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",

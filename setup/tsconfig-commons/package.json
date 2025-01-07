@@ -8,5 +8,8 @@
   },
   "files": [
     "base.json"
-  ]
+  ],
+  "scripts": {
+    "lint": "echo 'not implemented'"
+  }
 }
