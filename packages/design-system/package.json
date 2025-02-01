@@ -9,10 +9,12 @@
     "styled-components": "^6.1.13"
   },
   "scripts": {
-    "lint": "eslint ./**/*.{ts,tsx}"
+    "lint": "eslint ./**/*.{ts,tsx}",
+    "test": "jest"
   },
   "devDependencies": {
     "@alura/eslint-commons": "*",
-    "@alura/tsconfig-commons": "*"
+    "@alura/tsconfig-commons": "*",
+    "@alura/eslint-commons": "*"
   }
 }

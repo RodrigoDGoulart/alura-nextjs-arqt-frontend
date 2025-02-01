@@ -16,7 +16,8 @@
     "lint": "yarn workspaces run lint",
     "lint:web-public": "yarn web-public lint",
     "start:web-public": "yarn web-public start",
-    "test:utils": "yarn utils test"
+    "test:utils": "yarn utils test",
+    "test:design-system": "yarn design-system test"
   },
   "dependencies": {
     "eslint": "9.17.0",
