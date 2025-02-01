@@ -2,6 +2,7 @@ const { FlatCompat } = require("@eslint/eslintrc");
 const js = require("@eslint/js");
 const tsParser = require("@typescript-eslint/parser");
 const tsPlugin = require("@typescript-eslint/eslint-plugin");
+const jestPlugin = require("eslint-plugin-jest");
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
@@ -29,5 +30,15 @@ module.exports = [
       ],
       "no-undef": "off",
     },
+  },
+  {
+    files: ["**/*.test.{ts,tsx}", "**/*.spec.{ts,tsx}"],
+    plugins: {
+      jest: jestPlugin,
+    },
+    env: {
+      "jest/globals": true,
+    },
+    ...jestPlugin.configs.recommended,
   },
 ];

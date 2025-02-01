@@ -1,0 +1,29 @@
+{
+  "name": "@alura/test-commons",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "lint": "echo \"Error: no test specified\""
+  },
+  "files": [
+    "base.ts"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "@babel/preset-react": "7.26.3",
+    "@babel/preset-typescript": "7.26.0",
+    "babel-jest": "29.7.0",
+    "jest": "29.7.0",
+    "ts-node": "10.9.2"
+  },
+  "dependencies": {
+    "@alura/test-commons": "file:"
+  }
+}

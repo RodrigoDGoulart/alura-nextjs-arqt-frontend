@@ -7,9 +7,11 @@
     "@alura/utils": "file:"
   },
   "scripts": {
+    "test": "jest",
     "lint": "eslint ./**/*.{ts,tsx}"
   },
   "devDependencies": {
+    "@alura/test-commons": "*",
     "@alura/eslint-commons": "*",
     "@alura/tsconfig-commons": "*"
   }

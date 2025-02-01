@@ -8,11 +8,12 @@
   },
   "dependencies": {
     "@alura/eslint-commons": "file:",
-    "@alura/tsconfig-commons": "file:",
+    "@alura/tsconfig-commons": "*",
     "@typescript-eslint/eslint-plugin": "8.19.1",
     "@typescript-eslint/parser": "8.19.1",
     "eslint-config-next": "15.1.3",
     "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jest": "28.10.0",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-react": "7.37.3"
   },
